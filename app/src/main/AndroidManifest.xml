@@ -10,7 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.glyfly.khl.app.activity.LauncherActivity">
+        <activity android:name=".app.activity.LauncherActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,7 +19,4 @@
         </activity>
     </application>
 
-    <activity android:name=".app.activity.LoginActivity"/>
-    <activity android:name=".app.activity.MainActivity"/>
-    <activity android:name=".app.activity.WebActivity"/>
 </manifest>

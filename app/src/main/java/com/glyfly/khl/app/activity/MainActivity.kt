@@ -1,11 +1,25 @@
 package com.glyfly.khl.app.activity
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import android.view.View
+import com.glyfly.khl.R
+import com.glyfly.khl.app.base.BaseActivity
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivity() {
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+    override fun inflateLayout(): Int {
+        return R.layout.activity_main
+    }
+
+    override fun getParams(bundle: Bundle?) {
+
+    }
+
+    override fun initViews(view: View?) {
+
+    }
+
+    override fun doBusiness() {
+
     }
 }
